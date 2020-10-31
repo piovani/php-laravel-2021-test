@@ -3,7 +3,7 @@
 ### Requisitos de Negócio:
 
 - [ ] Criar estrutura de banco de dados:
-    * [ ] Cliente (nome, email, data_nascimento, cpf);
+    * [X] Cliente (nome, email, data_nascimento, cpf);
     * [ ] Endereco (logradouro, numero, complemento, bairro, cep, cidade, latitude, longitude);
 - [ ] Importar um arquivo CSV de cliente (s);
 - [ ] Parsear endereço (logradouro, número, complemento, bairro, cep, cidade);
