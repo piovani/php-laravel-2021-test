@@ -10,7 +10,9 @@ class ClientCreateService
     {
         $dataTranslated = $this->translate($data);
 
-        return Client::create($dataTranslated);
+        return Client::updateOrCreate([
+            'cpf' => $dataTranslated['cpf'],
+        ], $dataTranslated);
     }
 
     private function translate(array $data): array
