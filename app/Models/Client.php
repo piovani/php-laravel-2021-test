@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Shared\Domain;
 use Carbon\Carbon;
 
 /**
@@ -17,7 +18,7 @@ use Carbon\Carbon;
  * @property Carbon $updated_at
  * @property Carbon $deleted_at
  */
-class Client extends \Domain
+class Client extends Domain
 {
     protected $fillable = [
         'id',

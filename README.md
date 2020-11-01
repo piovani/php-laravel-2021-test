@@ -2,11 +2,11 @@
 
 ### Requisitos de Negócio:
 
-- [ ] Criar estrutura de banco de dados:
+- [X] Criar estrutura de banco de dados:
     * [X] Cliente (nome, email, data_nascimento, cpf);
-    * [ ] Endereco (logradouro, numero, complemento, bairro, cep, cidade, latitude, longitude);
+    * [X] Endereco (logradouro, numero, complemento, bairro, cep, cidade, latitude, longitude);
 - [ ] Importar um arquivo CSV de cliente (s);
-- [ ] Parsear endereço (logradouro, número, complemento, bairro, cep, cidade);
+- [ ] Parsear (validar) endereço (logradouro, número, complemento, bairro, cep, cidade);
 - [ ] Buscar GeoLocalização (GeoCoding) utilizando API do Google;
 - [ ] Salvar em Banco de dados;
 - [ ] Exibir em um grid os dados importados no BD;
