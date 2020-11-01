@@ -18,6 +18,7 @@ use Carbon\Carbon;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon $deleted_at
+ * @property Address $address
  */
 class Client extends Domain
 {
@@ -32,6 +33,6 @@ class Client extends Domain
 
     public function address()
     {
-        return $this->hasOne(Address::class);
+        return $this->belongsTo(Address::class);
     }
 }

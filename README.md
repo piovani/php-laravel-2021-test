@@ -6,9 +6,9 @@
     * [X] Cliente (nome, email, data_nascimento, cpf);
     * [X] Endereco (logradouro, numero, complemento, bairro, cep, cidade, latitude, longitude);
 - [X] Importar um arquivo CSV de cliente (s);
-- [ ] Parsear (validar) endereço (logradouro, número, complemento, bairro, cep, cidade);
-- [ ] Buscar GeoLocalização (GeoCoding) utilizando API do Google;
-- [ ] Salvar em Banco de dados;
+- [X] Parsear (validar) endereço (logradouro, número, complemento, bairro, cep, cidade);
+- [X] Buscar GeoLocalização (GeoCoding) utilizando API do Google;
+- [X] Salvar em Banco de dados;
 - [ ] Exibir em um grid os dados importados no BD;
 - [ ] Exportar dados do Grid em csv;
 
