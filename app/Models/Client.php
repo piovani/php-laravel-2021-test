@@ -10,6 +10,7 @@ use Carbon\Carbon;
  * @package App\Models
  *
  * @property string $id
+ * @property string $address_id
  * @property string $name
  * @property string $email
  * @property Carbon $date_birth
@@ -22,9 +23,15 @@ class Client extends Domain
 {
     protected $fillable = [
         'id',
+        'address_id',
         'name',
         'email',
         'date_birth',
         'cpf',
     ];
+
+    public function address()
+    {
+        return $this->hasOne(Address::class);
+    }
 }
