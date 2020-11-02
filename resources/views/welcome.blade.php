@@ -56,7 +56,7 @@
                 </tbody>
             </table>
             <div class="text-lg-center">
-                <button type="button" class="btn btn-primary">Baixar CSV</button>
+                <a type="button" class="btn btn-primary" href="{{ asset('client/export') }}">Baixar CSV</a>
             </div>
         </div>
     </body>

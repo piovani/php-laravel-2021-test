@@ -9,8 +9,8 @@
 - [X] Parsear (validar) endereço (logradouro, número, complemento, bairro, cep, cidade);
 - [X] Buscar GeoLocalização (GeoCoding) utilizando API do Google;
 - [X] Salvar em Banco de dados;
-- [ ] Exibir em um grid os dados importados no BD;
-- [ ] Exportar dados do Grid em csv;
+- [X] Exibir em um grid os dados importados no BD;
+- [X] Exportar dados do Grid em csv;
 
 
 ### Requisitos Técnicos:
@@ -20,22 +20,22 @@
 - [X] Utilizar Composer para libs externas;
 - [X] Framework;
 - [X] Mysql;
-- [ ] Front Bootstrap;
+- [X] Front Bootstrap;
 
 
 ### Extras:
 
-- [ ] Exportar dados em formato CSV;
+- [X] Exportar dados em formato CSV;
 - [ ] Upload de CSV via AJAX;
 
 
 ### O que se espera: 
 
-- [ ] Utilização de Design Patterns (https://www.php-fig.org/psr/)
+- [X] Utilização de Design Patterns (https://www.php-fig.org/psr/)
 - [X] Desenvolvimento da Lógica para leitura do CSV;
-- [ ] Validação e cleanup dos dados (Parse do endereço);
-- [ ] Buscar geocoding;
-- [ ] Estruturação da tabela;
+- [X] Validação e cleanup dos dados (Parse do endereço);
+- [X] Buscar geocoding;
+- [X] Estruturação da tabela;
 - [X] Salvar dados no BD;
 
 
