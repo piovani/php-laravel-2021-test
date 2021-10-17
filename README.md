@@ -26,7 +26,7 @@
 ### Extras:
 
 - [X] Exportar dados em formato CSV;
-- [ ] Upload de CSV via AJAX;
+- [X] Upload de CSV via AJAX;
 
 
 ### O que se espera: 
