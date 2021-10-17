@@ -41,7 +41,5 @@
 
 ### Diferenciais;
 
-- [ ] Dependency Injector (ex: Pimple)
 - [X] Docker
-- [ ] Template Engine (ex: Twig)
 - [X] Importar CSV a partir de linha de comando (https://laravel.com/docs/5.6/artisan#writing-commands)
